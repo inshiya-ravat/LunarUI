@@ -1,23 +1,23 @@
-# LunarUI - A Component Library
+# LuneUI - A Component Library
 
-![Npm Version](https://img.shields.io/npm/v/simlib.svg)
-![NPM Last Update](https://img.shields.io/npm/last-update/simlib)
-![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/simlib)
+![Npm Version](https://img.shields.io/npm/v/lune-ui.svg)
+![NPM Last Update](https://img.shields.io/npm/last-update/lune-ui)
+![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/lune-ui)
 
 This is a component library created by Trainees at Simform.
 
-- **Browse all components :** [https://inshiya-lunarui.netlify.app/](https://inshiya-lunarui.netlify.app/)
-- **Checkout on npm :** [https://www.npmjs.com/package/lunarUI](https://www.npmjs.com/package/lunarUI)
+- **Browse all components :** [https://inshiya-lunarui.netlify.app/](visit lune-ui)
+- **Checkout on npm :** [https://www.npmjs.com/package/lunarUI](https://www.npmjs.com/package/lune-ui)
 - **Install from npm :**
 
 ```bash
-npm i lunarUI@latest
+npm i lune-ui@latest
 ```
 
 - To use the component, import it like this,
 
 ```typescript
-import { Camera } from 'lunarUI';
+import { Camera } from 'lune-ui';
 ```
 
 ## How to contribute ?

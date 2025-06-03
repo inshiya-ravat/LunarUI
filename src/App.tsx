@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@emotion/react';
 
-import { Button } from '../lib/main';
+import { Button, Camera } from '../lib/main';
 import './App.css';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <Button variant="outlined">hi</Button>
+        <Camera/>
       </ThemeProvider>
     </>
   );
