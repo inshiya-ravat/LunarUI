@@ -1,8 +1,8 @@
 {
-  "name": "Lunara",
+  "name": "lunarUI",
   "version": "0.0.0",
   "type": "module",
-  "main": "dist/simlib.js",
+  "main": "dist/lunarUI.js",
   "types": "dist/main.d.ts",
   "files": [
     "dist"
