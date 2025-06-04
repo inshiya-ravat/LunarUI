@@ -12,7 +12,10 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Camera action={()=>alert('captured image')} className='camera-container'/>
+        <Camera
+          action={() => alert('captured image')}
+          className="camera-container"
+        />
       </ThemeProvider>
     </>
   );

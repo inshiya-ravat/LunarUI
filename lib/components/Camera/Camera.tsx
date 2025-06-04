@@ -37,12 +37,12 @@ const WebcamButton = css`
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
-interface CameraProps{
-  action?: ()=>void,
-  className?: string
+interface CameraProps {
+  action?: () => void;
+  className?: string;
 }
 //accept arg on capture for action (optional), classname
-export const Camera = ({action,className}:CameraProps) => {
+export const Camera = ({ action, className }: CameraProps) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -91,7 +91,9 @@ export const Camera = ({action,className}:CameraProps) => {
         setCapturedImage(imageDataUrl);
 
         stopWebcam();
-        action();
+        if(action){
+          action();
+        }
       }
     }
   };
