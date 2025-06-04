@@ -11,6 +11,4 @@ export default meta;
 
 type Story = StoryObj<typeof Camera>;
 
-export const Normal: Story = {
-};
-
+export const Normal: Story = {};

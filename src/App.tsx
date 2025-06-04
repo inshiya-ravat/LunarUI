@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@emotion/react';
 
-import { Button, Camera } from '../lib/main';
+import { Camera } from '../lib/main';
 import './App.css';
 
 function App() {
@@ -12,8 +12,7 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Button variant="outlined">hi</Button>
-        <Camera/>
+        <Camera action={()=>alert('captured image')} className='camera-container'/>
       </ThemeProvider>
     </>
   );
