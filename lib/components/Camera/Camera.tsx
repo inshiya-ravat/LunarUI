@@ -91,7 +91,7 @@ export const Camera = ({ action, className }: CameraProps) => {
         setCapturedImage(imageDataUrl);
 
         stopWebcam();
-        if(action){
+        if (action) {
           action();
         }
       }
