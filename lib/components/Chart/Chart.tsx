@@ -71,5 +71,9 @@ export const Charts = ({
     }
   }, [chartTitle, chartType, data, chartLegend]);
 
-  return <div style={{width:"100%",height:"100%"}}><canvas  className={className} ref={canvasRef}></canvas></div>;
+  return (
+    <div style={{ width: '100%', height: '100%' }}>
+      <canvas className={className} ref={canvasRef}></canvas>
+    </div>
+  );
 };
