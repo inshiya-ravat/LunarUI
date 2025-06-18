@@ -42,7 +42,7 @@ function App() {
         />
         <Charts
           className="chart"
-          chartType="line"
+          chartType="pie"
           chartTitle="Sample Chart"
           chartLegend="bottom"
           data={chartData}

@@ -52,6 +52,7 @@ export const Charts = ({
         data: data || { datasets: [], labels: [] },
         options: {
           responsive: true,
+          maintainAspectRatio: false,
           plugins: {
             legend: {
               position: chartLegend,
@@ -70,5 +71,5 @@ export const Charts = ({
     }
   }, [chartTitle, chartType, data, chartLegend]);
 
-  return <canvas className={className} ref={canvasRef}></canvas>;
+  return <div style={{width:"100%",height:"100%"}}><canvas  className={className} ref={canvasRef}></canvas></div>;
 };
