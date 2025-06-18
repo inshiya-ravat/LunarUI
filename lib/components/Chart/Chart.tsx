@@ -42,7 +42,7 @@ export const Charts = ({
   data,
   chartType,
   chartLegend,
-  className
+  className,
 }: ChartsProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   useEffect(() => {

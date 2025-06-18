@@ -77,7 +77,7 @@ export const Line: Story = {
     chartType: 'line',
     chartTitle: 'Line Chart Example',
     chartLegend: 'right',
-    data: {  
+    data: {
       labels: ['January', 'February', 'March', 'April', 'May'],
       datasets: [
         {
@@ -89,5 +89,5 @@ export const Line: Story = {
         },
       ],
     },
-}
+  },
 };
